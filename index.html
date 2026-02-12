@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="stylesheet" href="/style.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+<header class="flex flex-row container mx-auto w-11/12 my-6 md:justify-center md:gap-26 lg:gap-100 ">
+  <div class="flex flex-row gap-10 md:gap-1">
+  <div class="flex flex-row justify-between gap-60 md:gap-5">
+  <div>
+    <img src="/images/logo.svg" alt="">
+  </div>
+  <div>
+    <img class="block md:hidden" src="/images/icon-menu.svg" alt="">
+  </div>
+  </div>
+  <nav class="hidden md:block flex-row gap-10 md:gap-3 lg:gap-10">
+    <div class="flex flex-row gap-10">
+    <div class="flex flex-row items-center">
+      <a href="#">Features</a><span><img src="/images/icon-arrow-down.svg" alt=""></span>
+    </div>
+    <div class="flex flex-row items-center">
+    <a href="#">Company</a><span><img src="/images/icon-arrow-down.svg" alt=""></span>
+    </div>
+    
+    <a href="#">Careers</a>
+    <a href="#">About</a>
+    </div>
+  </nav>
+  </div>
+  <div class="hidden md:block">
+    <div class="flex flex-row">
+  
+    <input class="  md:mr-[-100px]" type="text" id="Login" name="Login" placeholder="Login" required>
+  
+    <input class="border w-20 py-1 pl-3 rounded-xl " type="text" id="Register" name="Register" placeholder="Register" required>
+  </div>
+  </div>
+</header>
+
+<main class=" flex flex-col md:flex-row-reverse md:justify-center container mx-auto w-11/12 gap-20 md:gap-10 lg:gap-20 md:mb-10 lg:mb-10 md:mt-18 lg:mt-18">
+  <!-- section 1 -->
+   
+  <div>
+    <img class="block md:hidden" src="/images/image-hero-mobile.png" alt="">
+    <img class="hidden md:block md:max-w-[12rem] lg:max-w-[20rem]" src="/images/image-hero-desktop.png" alt="">
+  </div>
+  <!-- section 2 -->
+   <section class=" flex flex-col justify-center items-center">
+   <div class="flex flex-col justify-center md:justify-start items-center gap-10 md:gap-5 lg:gap-10">
+    <h1 class="font-Epilogue font-extrabold text-[30px] md:text-5xl lg:text-6xl md:w-[350px] lg:w-[390px] md:text-start md:ml-[-6.5rem] lg:ml-[-4rem] lg:w-65 md:leading-none ">Make remote work</h1>
+    <p class="font-Epilogue font-normal text-center text-[18px] md:text-[14px] lg:text-[18px]  px-3 md:w-[30rem] md:text-start">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+    <button class="bg-black text-white py-3 md:py-1 lg:py-3 px-8 rounded-2xl font-Epilogue font-bold md:ml-[-19rem]" type="submit">Learn more</button>
+   </div>
+
+<footer class="flex flex-row gap-6 mb-10 mt-10 md:mt-8 lg:mt-20 md:ml-[-4rem] ">
+  <div>
+    <img class="w-18 md:w-20" src="/images/client-databiz.svg" alt="">
+  </div>
+  <div>
+    <img class="w-18 md:w-20" src="/images/client-audiophile.svg" alt="">
+  </div>
+  <div>
+    <img class="w-18 md:w-20" src="/images/client-meet.svg" alt="">
+  </div>
+  <div>
+    <img class="w-18 md:w-20" src="/images/client-maker.svg" alt="">
+  </div>
+</footer>
+</section>
+</main>
+  
+
+  
+
+  
+
+  
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
